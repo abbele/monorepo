@@ -8,7 +8,10 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     '@nuxt/test-utils',
+  ],
+  
+  extends: [
     '@abbele/core',
     '@abbele/uikit'
-  ],
+  ]
 })

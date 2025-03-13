@@ -2,5 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxt/content', '@nuxt/eslint', '@nuxt/scripts', '@abbele/core'],
+  modules: ['@nuxt/content', '@nuxt/eslint', '@nuxt/scripts'],
+  extends: ['@abbele/core']
 })

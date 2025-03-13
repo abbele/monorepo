@@ -9,7 +9,12 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "main": "./module.ts",
+  "exports": {
+    "./nuxt.config": "./nuxt.config.ts"
+  },
+  "files": [
+    "nuxt.config.ts"
+  ],
   "dependencies": {
     "@nuxt/content": "3.3.0",
     "@nuxt/eslint": "1.2.0",
