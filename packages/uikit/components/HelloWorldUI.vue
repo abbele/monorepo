@@ -1,0 +1,17 @@
+<script setup lang="ts">
+const { x, y } = useMouse();
+</script>
+
+<template>
+  <div>
+    <h1>Hello World UI!</h1>
+    <pre>{{ myLayer }}</pre>
+    <p>Mouse position UI is at: {{ x }}, {{ y }}</p>
+  </div>
+</template>
+
+<style scoped>
+h1 {
+  color: blue;
+}
+</style>
