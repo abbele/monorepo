@@ -5,7 +5,6 @@ const { x, y } = useMouse();
 <template>
   <div>
     <h1>Hello World UI!</h1>
-    <pre>{{ myLayer }}</pre>
     <p>Mouse position UI is at: {{ x }}, {{ y }}</p>
   </div>
 </template>

@@ -1,4 +1,4 @@
 packages:
-  - "apps/*"
-  - "packages/uikit"
-  - "packages/core"
+  - "packages/@abbele/uikit"
+  - "packages/@abbele/core"
+  - "packages/abbele"

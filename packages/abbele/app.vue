@@ -1,8 +1,6 @@
 <template>
   <div>
-    MONOREPO
-    <HelloWorldUI />
-    <HelloWorldCore />
+    Abbele
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
   </div>

@@ -1,11 +1,10 @@
 {
-  "name": "@abbele/core",
-  "private": false,
-  "version": "0.0.3",
+  "name": "@abbele/uikit",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev -p 3020",
+    "dev": "nuxt dev -p 3030",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -15,18 +14,16 @@
   },
   "files": [
     "components",
-    "composables",
     "nuxt.config.ts"
   ],
   "dependencies": {
     "@nuxt/content": "3.3.0",
     "@nuxt/eslint": "1.2.0",
     "@nuxt/scripts": "0.11.2",
-    "@nuxt/test-utils": "3.17.2",
-    "@unhead/vue": "^2.0.0-rc.8",
     "eslint": "^9.0.0",
     "nuxt": "^3.16.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "@abbele/core": "workspace:^"
   }
 }
