@@ -7,11 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/content',
     '@nuxt/scripts',
-    '@nuxt/test-utils'
-  ],
-
-  extends: [
+    '@nuxt/test-utils',
     '@monorepo/core',
     '@monorepo/uikit'
-  ]
+  ],
 })

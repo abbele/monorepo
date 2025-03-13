@@ -2,7 +2,7 @@ import { defineNuxtModule } from "nuxt/kit"
 
 export default defineNuxtModule({
     meta: {
-      name: '@monorepo',
+      name: 'monorepo',
       configKey: 'monorepo'
     },
     async setup(options, nuxt) {
