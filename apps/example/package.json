@@ -1,6 +1,5 @@
 {
   "name": "@monorepo-abbele/example",
-  "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
