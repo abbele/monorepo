@@ -1,6 +1,6 @@
 {
   "name": "monorepo-abbele",
-  "private": true,
+  "version": "0.0.1",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
