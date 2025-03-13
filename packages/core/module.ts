@@ -2,7 +2,7 @@ import { addComponentsDir, addImportsDir, defineNuxtModule, createResolver } fro
 
 export default defineNuxtModule({
     meta: {
-      name: '@monorepo/core',
+      name: '@monorepo-abbele/core',
       configKey: 'core'
     },
     async setup(options, nuxt) {

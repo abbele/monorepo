@@ -17,9 +17,9 @@ importers:
 
   apps/example:
     dependencies:
-      '@monorepo':
+      monorepo-abbele:
         specifier: workspace:^
-        version: link:../..
+        version: link:../monorepo
       nuxt:
         specifier: ^3.16.0
         version: 3.16.0(eslint@9.22.0)(typescript@5.8.2)(vite@6.2.1)
@@ -32,10 +32,10 @@ importers:
 
   apps/monorepo:
     dependencies:
-      '@monorepo/core':
+      '@monorepo-abbele/core':
         specifier: workspace:^
         version: link:../../packages/core
-      '@monorepo/uikit':
+      '@monorepo-abbele/uikit':
         specifier: workspace:^
         version: link:../../packages/uikit
       '@nuxt/content':
@@ -98,7 +98,7 @@ importers:
 
   packages/uikit:
     dependencies:
-      '@monorepo/core':
+      '@monorepo-abbele/core':
         specifier: workspace:^
         version: link:../core
       '@nuxt/content':

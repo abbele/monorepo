@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@monorepo/core',
-    '@monorepo/uikit'
+    '@monorepo-abbele/core',
+    '@monorepo-abbele/uikit'
   ],
 })

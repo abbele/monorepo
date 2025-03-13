@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "monorepo-abbele",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -21,7 +21,7 @@
     "nuxt": "^3.16.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
-    "@monorepo/core": "workspace:^",
-    "@monorepo/uikit": "workspace:^"
+    "@monorepo-abbele/core": "workspace:^",
+    "@monorepo-abbele/uikit": "workspace:^"
   }
 }
