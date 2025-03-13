@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "exports": {
-    "./nuxt.config": "./nuxt.config.ts"
+    ".": "./nuxt.config.ts"
   },
   "files": [
     "components",
