@@ -2,18 +2,18 @@ import { defineNuxtModule } from "nuxt/kit"
 
 export default defineNuxtModule({
     meta: {
-      name: 'monorepo-abbelee',
-      configKey: 'monorepo-abbelee'
+      name: 'abbele',
+      configKey: 'abbele'
     },
     async setup(options, nuxt) {
       console.log('Monorepo caricato!')
 
-      if (!nuxt.options.modules.includes('@monorepo-abbelee/core')) {
-        nuxt.options.modules.push('@monorepo-abbelee/core')
+      if (!nuxt.options.modules.includes('@abbele/core')) {
+        nuxt.options.modules.push('@abbele/core')
       }
       
-      if (!nuxt.options.modules.includes('@monorepo-abbelee/uikit')) {
-        nuxt.options.modules.push('@monorepo-abbelee/uikit')
+      if (!nuxt.options.modules.includes('@abbele/uikit')) {
+        nuxt.options.modules.push('@abbele/uikit')
       }
     },
   })

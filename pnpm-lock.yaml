@@ -16,7 +16,7 @@ importers:
 
   apps/example:
     dependencies:
-      monorepo-abbelee:
+      abbele:
         specifier: workspace:^
         version: link:../monorepo
       nuxt:
@@ -31,10 +31,10 @@ importers:
 
   apps/monorepo:
     dependencies:
-      "@monorepo-abbelee/core":
+      "@abbele/core":
         specifier: workspace:^
         version: link:../../packages/core
-      "@monorepo-abbelee/uikit":
+      "@abbele/uikit":
         specifier: workspace:^
         version: link:../../packages/uikit
       "@nuxt/content":
@@ -97,7 +97,7 @@ importers:
 
   packages/uikit:
     dependencies:
-      "@monorepo-abbelee/core":
+      "@abbele/core":
         specifier: workspace:^
         version: link:../core
       "@nuxt/content":
