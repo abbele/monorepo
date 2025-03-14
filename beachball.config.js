@@ -1,12 +1,16 @@
 module.exports = {
+	branch: 'main',
+	bumpDeps: true,
 	versioning: {
-			default: 'patch',
-			strategy: 'auto'
+		default: 'patch',
+		strategy: 'auto'
 	},
 	changelog: {
-			path: 'CHANGELOG.md',
-			entryTemplate: '- {{version}} ({{date}}): {{message}}'
+		path: 'CHANGELOG.md',
+		entryTemplate: '- {{version}} ({{date}}): {{message}}'
 	},
-	packages: ['packages/*']
+	scope: ['packages/*'],
+	packages: ['packages/*'],
+	access: 'public',
 };
   
