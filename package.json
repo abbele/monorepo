@@ -7,7 +7,7 @@
     "dev:example": "turbo run dev --filter=@abbele/example",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish-packages": "turbo run build lint && changeset version && changeset publish"
+    "publish-packages": "turbo run build lint && changeset && changeset version && changeset publish"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
