@@ -7,8 +7,14 @@
     "dev:example": "turbo run dev --filter=@abbele/example",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "version": "pnpm beachball version",
+    "changelog": "pnpm beachball changelog",
+    "commit": "git commit -am 'chore(release): update versions and changelog'",
+    "publish": "pnpm -r publish --filter=!@abbele/example --access public",
+    "release": "npm run version && npm run changelog && npm run commit && npm run publish"
   },
   "devDependencies": {
+    "beachball": "^2.51.0",
     "prettier": "^3.2.5",
     "turbo": "^2.4.4"
   },
