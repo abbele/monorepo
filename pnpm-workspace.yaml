@@ -1,4 +1,5 @@
 packages:
+  - "apps/example"
   - "packages/@abbele/uikit"
   - "packages/@abbele/core"
   - "packages/abbele"
