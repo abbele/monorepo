@@ -1,0 +1,9 @@
+34 error TypeError: Invalid Version: indipendent
+34 error     at new SemVer (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/semver@7.7.1/node_modules/semver/classes/semver.js:38:13)
+34 error     at compare (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/semver@7.7.1/node_modules/semver/functions/compare.js:3:32)
+34 error     at Object.lt (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/semver@7.7.1/node_modules/semver/functions/lt.js:2:29)
+34 error     at VersionCommand.setGlobalVersionFloor (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/lerna@8.2.1/node_modules/lerna/dist/index.js:9713:38)
+34 error     at VersionCommand.recommendVersions (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/lerna@8.2.1/node_modules/lerna/dist/index.js:9683:16)
+34 error     at VersionCommand.getVersionsForUpdates (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/lerna@8.2.1/node_modules/lerna/dist/index.js:9636:23)
+34 error     at VersionCommand.initialize (/Users/micheleabbrescia/Desktop/monorepo/node_modules/.pnpm/lerna@8.2.1/node_modules/lerna/dist/index.js:9562:37)
+34 error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
