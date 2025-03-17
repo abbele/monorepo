@@ -2,11 +2,12 @@
   "name": "abbele",
   "version": "0.0.2",
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "dev:example": "turbo run dev --filter=@abbele/example",
-    "lint": "turbo run lint",
+    "build": "lerna run build --parallel",
+    "dev": "lerna run dev --parallel",
+    "dev:example": "lerna run dev --scope=@abbele/example",
+    "lint": "lerna run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "publish": "lerna publish --conventional-commits"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
     "prettier": "^3.2.5",
     "turbo": "^2.4.4"
   },
-  "packageManager": "pnpm@8.15.6"
+  "packageManager": "pnpm@8.15.6",
+  "dependencies": {
+    "lerna": "^8.2.1"
+  }
 }
