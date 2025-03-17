@@ -1,6 +1,6 @@
 <template>
   <div>
-    CORE
+    CORE MIO
     <HelloWorldCore />
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
