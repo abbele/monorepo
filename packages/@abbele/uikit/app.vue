@@ -2,7 +2,7 @@
   <div>
     UI KIT
     <ButtonUI>
-      <span>UI KIT BUTTON</span>
+      <span>Un bel bottone</span>
     </ButtonUI>
     <HelloWorldUI />
     <NuxtRouteAnnouncer />
