@@ -7,7 +7,6 @@
     "dev:example": "turbo run dev --filter=@abbele/example",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish": "pnpm beachball publish"
   },
   "repository": {
     "type": "git",
@@ -17,8 +16,5 @@
     "prettier": "^3.2.5",
     "turbo": "^2.4.4"
   },
-  "packageManager": "pnpm@8.15.6",
-  "dependencies": {
-    "@changesets/cli": "^2.28.1"
-  }
+  "packageManager": "pnpm@8.15.6"
 }
