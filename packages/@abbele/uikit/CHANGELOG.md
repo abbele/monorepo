@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/abbele/monorepo/compare/@abbele/uikit@0.0.10...@abbele/uikit@0.1.0) (2025-03-17)
+
+### Features
+
+- add text app uikit ([b79d4bb](https://github.com/abbele/monorepo/commit/b79d4bbd5ff7be496c5fd529bcbc87c8e53fbbf6))
+
 ## [0.0.10](https://github.com/abbele/monorepo/compare/@abbele/uikit@0.0.9...@abbele/uikit@0.0.10) (2025-03-17)
 
 ### Bug Fixes

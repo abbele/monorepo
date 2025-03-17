@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/abbele/monorepo/compare/abbele@0.0.10...abbele@0.0.11) (2025-03-17)
+
+**Note:** Version bump only for package abbele
+
 ## [0.0.10](https://github.com/abbele/monorepo/compare/abbele@0.0.9...abbele@0.0.10) (2025-03-17)
 
 **Note:** Version bump only for package abbele
