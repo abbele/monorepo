@@ -1,6 +1,7 @@
 <template>
   <button class="button-ui" @click="handleClick">
     <slot></slot>
+    {{ count }}
   </button>
 </template>
 
