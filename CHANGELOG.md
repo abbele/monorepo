@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.8](https://github.com/abbele/monorepo/compare/v0.0.7...v0.0.8) (2025-03-17)
+
+### Bug Fixes
+
+- add count ui ([0abae85](https://github.com/abbele/monorepo/commit/0abae8527a1d071200cba2d54d0b6c5b32df3b88))
+- add data ([af1264b](https://github.com/abbele/monorepo/commit/af1264bded00676f1272eb80975cc1ad64a78aab))
+- remove .nx ([f126b33](https://github.com/abbele/monorepo/commit/f126b33be352b4e64464afb4a739aea7d1c086fd))
+- remove example from packages ([b2e4af0](https://github.com/abbele/monorepo/commit/b2e4af098d492880d5dbc0ad4fe7a3f172e3d8d3))
+- remove workspace from lerna ([b34a833](https://github.com/abbele/monorepo/commit/b34a8337ae73493a310614367e8c235aad42fb41))
+- try publish options ([d2f4a1a](https://github.com/abbele/monorepo/commit/d2f4a1a12857c4a44e4c1f91a52e19155929e59a))
+
 ## 0.0.7 (2025-03-17)
 
 ### Bug Fixes

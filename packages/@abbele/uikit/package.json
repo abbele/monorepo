@@ -1,7 +1,7 @@
 {
   "name": "@abbele/uikit",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.8",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -18,13 +18,13 @@
     "nuxt.config.ts"
   ],
   "dependencies": {
+    "@abbele/core": "workspace:^",
     "@nuxt/content": "3.3.0",
     "@nuxt/eslint": "1.2.0",
     "@nuxt/scripts": "0.11.2",
     "eslint": "^9.0.0",
     "nuxt": "^3.16.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0",
-    "@abbele/core": "workspace:^"
+    "vue-router": "^4.5.0"
   }
 }

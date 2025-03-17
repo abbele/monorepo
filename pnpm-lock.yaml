@@ -18,21 +18,6 @@ importers:
         specifier: ^2.4.4
         version: 2.4.4
 
-  apps/example:
-    dependencies:
-      abbele:
-        specifier: workspace:^
-        version: link:../../packages/abbele
-      nuxt:
-        specifier: ^3.16.0
-        version: 3.16.0(eslint@9.22.0)(typescript@5.8.2)(vite@6.2.1)
-      vue:
-        specifier: ^3.5.13
-        version: 3.5.13(typescript@5.8.2)
-      vue-router:
-        specifier: ^4.5.0
-        version: 4.5.0(vue@3.5.13)
-
   packages/@abbele/core:
     dependencies:
       "@nuxt/content":
