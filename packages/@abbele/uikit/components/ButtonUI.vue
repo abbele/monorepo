@@ -5,6 +5,12 @@
   </button>
 </template>
 
+<style scoped>
+.button-ui {
+  color: blue;
+}
+</style>
+
 <script setup lang="ts">
 const count = ref(0);
 
