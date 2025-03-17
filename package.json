@@ -7,7 +7,8 @@
     "dev:example": "turbo run dev --filter=@abbele/example",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "publish": "pnpm changeset publish --no-git-tag --tag latest"
   },
   "repository": {
     "type": "git",
