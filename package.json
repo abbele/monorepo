@@ -6,8 +6,7 @@
     "dev": "turbo run dev",
     "dev:example": "turbo run dev --filter=@abbele/example",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish": "pnpm beachball publish"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "repository": {
     "type": "git",
