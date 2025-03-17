@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.2 (2025-03-17)
+
+
+### Bug Fixes
+
+* add permission ([5d39249](https://github.com/abbele/monorepo/commit/5d39249e3fd66629316ff6e30586115048a2821f))
+
+
+
+
+
 ## [0.1.1](https://github.com/abbele/monorepo/compare/@abbele/uikit@0.1.0...@abbele/uikit@0.1.1) (2025-03-17)
 
 **Note:** Version bump only for package @abbele/uikit
