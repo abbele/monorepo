@@ -1,6 +1,6 @@
 <template>
   <button class="button-ui" @click="handleClick">
-    <slot></slot>
+    <slot name="button-child"></slot>
   </button>
 </template>
 
