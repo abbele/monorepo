@@ -4,6 +4,7 @@
     <ButtonUI>
       <span>Un bel bottone</span>
     </ButtonUI>
+    Buonasera
     <HelloWorldUI />
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
