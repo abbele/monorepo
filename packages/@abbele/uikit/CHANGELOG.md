@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.10](https://github.com/abbele/monorepo/compare/@abbele/uikit@0.0.9...@abbele/uikit@0.0.10) (2025-03-17)
+
+### Bug Fixes
+
+- update color hello world ([4b8b494](https://github.com/abbele/monorepo/commit/4b8b494e7c0724bd71942a080b1e8ef3602a2a29))
+
 ## [0.0.9](https://github.com/abbele/monorepo/compare/@abbele/uikit@0.0.5...@abbele/uikit@0.0.9) (2025-03-17)
 
 ### Bug Fixes
