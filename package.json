@@ -7,7 +7,7 @@
     "dev:example": "turbo run dev --filter=@abbele/example",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish": "pnpm beachball publish"
+    "prepare": "husky install" 
   },
   "repository": {
     "type": "git",
