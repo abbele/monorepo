@@ -13,4 +13,8 @@ const { x, y } = useMouse();
 h1 {
   color: blue;
 }
+
+p {
+  color: red;
+}
 </style>
