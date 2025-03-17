@@ -1,0 +1,288 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.6.0",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "turbo.json",
+        "hash": "16660764312589436527"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "16740222057167472941"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "2408719532530458181"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3403154931541090305"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "13643463164517321398"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9095556013077182265"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "15553269581099457463"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10785082776120171404"
+      },
+      {
+        "file": "package.json",
+        "hash": "16595070118653990349"
+      },
+      {
+        "file": "README.md",
+        "hash": "656143968556232067"
+      }
+    ],
+    "projectFileMap": {
+      "@abbele/core": [
+        {
+          "file": "packages/@abbele/core/.gitignore",
+          "hash": "7659802768140328695"
+        },
+        {
+          "file": "packages/@abbele/core/README.md",
+          "hash": "3643427692363112512"
+        },
+        {
+          "file": "packages/@abbele/core/app.vue",
+          "hash": "1864928567263097880"
+        },
+        {
+          "file": "packages/@abbele/core/components/HelloWorldCore.vue",
+          "hash": "8723421999696611817"
+        },
+        {
+          "file": "packages/@abbele/core/composables/useEventListener.ts",
+          "hash": "13567602530624115567"
+        },
+        {
+          "file": "packages/@abbele/core/composables/useFetch.ts",
+          "hash": "7806739696416902942"
+        },
+        {
+          "file": "packages/@abbele/core/composables/useMouse.ts",
+          "hash": "2921725475393951845"
+        },
+        {
+          "file": "packages/@abbele/core/eslint.config.mjs",
+          "hash": "8917848450663344213"
+        },
+        {
+          "file": "packages/@abbele/core/nuxt.config.ts",
+          "hash": "12098613254152696201"
+        },
+        {
+          "file": "packages/@abbele/core/package.json",
+          "hash": "7371445852849064121",
+          "deps": [
+            "npm:@nuxt/content",
+            "npm:@nuxt/eslint",
+            "npm:@nuxt/scripts",
+            "npm:@nuxt/test-utils",
+            "npm:@unhead/vue",
+            "npm:eslint",
+            "npm:nuxt",
+            "npm:vue",
+            "npm:vue-router"
+          ]
+        },
+        {
+          "file": "packages/@abbele/core/public/favicon.ico",
+          "hash": "11254174431594941832"
+        },
+        {
+          "file": "packages/@abbele/core/public/robots.txt",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "packages/@abbele/core/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "packages/@abbele/core/tsconfig.json",
+          "hash": "14954365934789776026"
+        }
+      ],
+      "@abbele/uikit": [
+        {
+          "file": "packages/@abbele/uikit/.gitignore",
+          "hash": "7659802768140328695"
+        },
+        {
+          "file": "packages/@abbele/uikit/README.md",
+          "hash": "3643427692363112512"
+        },
+        {
+          "file": "packages/@abbele/uikit/app.vue",
+          "hash": "2075956146424045044"
+        },
+        {
+          "file": "packages/@abbele/uikit/components/ButtonUI.vue",
+          "hash": "1153489227786033580"
+        },
+        {
+          "file": "packages/@abbele/uikit/components/HelloWorldUI.vue",
+          "hash": "975273446422808238"
+        },
+        {
+          "file": "packages/@abbele/uikit/eslint.config.mjs",
+          "hash": "8917848450663344213"
+        },
+        {
+          "file": "packages/@abbele/uikit/nuxt.config.ts",
+          "hash": "12614827450416390059"
+        },
+        {
+          "file": "packages/@abbele/uikit/package.json",
+          "hash": "16015988883635559882",
+          "deps": [
+            "npm:@nuxt/content",
+            "npm:@nuxt/eslint",
+            "npm:@nuxt/scripts",
+            "npm:eslint",
+            "npm:nuxt",
+            "npm:vue",
+            "npm:vue-router",
+            "@abbele/core"
+          ]
+        },
+        {
+          "file": "packages/@abbele/uikit/public/favicon.ico",
+          "hash": "11254174431594941832"
+        },
+        {
+          "file": "packages/@abbele/uikit/public/robots.txt",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "packages/@abbele/uikit/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "packages/@abbele/uikit/tsconfig.json",
+          "hash": "14954365934789776026"
+        }
+      ],
+      "@abbele/example": [
+        {
+          "file": "apps/example/.gitignore",
+          "hash": "7659802768140328695"
+        },
+        {
+          "file": "apps/example/README.md",
+          "hash": "3643427692363112512"
+        },
+        {
+          "file": "apps/example/app.vue",
+          "hash": "8470830056031021828"
+        },
+        {
+          "file": "apps/example/eslint.config.mjs",
+          "hash": "8917848450663344213"
+        },
+        {
+          "file": "apps/example/nuxt.config.ts",
+          "hash": "6943570517914501840"
+        },
+        {
+          "file": "apps/example/package.json",
+          "hash": "5009346181749627163",
+          "deps": [
+            "npm:nuxt",
+            "npm:vue",
+            "npm:vue-router",
+            "abbele"
+          ]
+        },
+        {
+          "file": "apps/example/public/favicon.ico",
+          "hash": "11254174431594941832"
+        },
+        {
+          "file": "apps/example/public/robots.txt",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "apps/example/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "apps/example/tsconfig.json",
+          "hash": "14954365934789776026"
+        }
+      ],
+      "abbele": [
+        {
+          "file": "packages/abbele/.gitignore",
+          "hash": "7659802768140328695"
+        },
+        {
+          "file": "packages/abbele/CHANGELOG.md",
+          "hash": "2137403562196035868"
+        },
+        {
+          "file": "packages/abbele/README.md",
+          "hash": "3643427692363112512"
+        },
+        {
+          "file": "packages/abbele/app.vue",
+          "hash": "4260050962935418068"
+        },
+        {
+          "file": "packages/abbele/eslint.config.mjs",
+          "hash": "8917848450663344213"
+        },
+        {
+          "file": "packages/abbele/nuxt.config.ts",
+          "hash": "6617473806674581823"
+        },
+        {
+          "file": "packages/abbele/package.json",
+          "hash": "8128802787224190416",
+          "deps": [
+            "@abbele/core",
+            "@abbele/uikit",
+            "npm:@nuxt/content",
+            "npm:@nuxt/eslint",
+            "npm:@nuxt/scripts",
+            "npm:@nuxt/test-utils",
+            "npm:@unhead/vue",
+            "npm:eslint",
+            "npm:nuxt",
+            "npm:vue",
+            "npm:vue-router"
+          ]
+        },
+        {
+          "file": "packages/abbele/public/favicon.ico",
+          "hash": "11254174431594941832"
+        },
+        {
+          "file": "packages/abbele/public/robots.txt",
+          "hash": "4055606894390288348"
+        },
+        {
+          "file": "packages/abbele/server/tsconfig.json",
+          "hash": "9971712086955286516"
+        },
+        {
+          "file": "packages/abbele/tsconfig.json",
+          "hash": "14954365934789776026"
+        }
+      ]
+    }
+  }
+}
